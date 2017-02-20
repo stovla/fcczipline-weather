@@ -1,0 +1,119 @@
+body {
+	background-image: url("http://cdn.weatheravenue.com/img/background/background.jpg");
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+	background: #000000;
+	text-align: center;
+}
+.navigation {
+	background: #161616;
+	color: #ffffff;
+	position: fixed;
+	border-bottom: 2px groove black;
+	width: 100%;
+	height: auto;
+	top: 0;
+}
+
+.navigation #name {
+	display: inline-block;
+	width: 60%;
+	margin: 10px auto;
+	text-align: center;
+	font-size: 25px;
+	line-height: 25px;
+}
+.navigation input {
+	font-size: 20px;
+	line-height: 25px;
+}
+.main-window {
+	position: inherit;
+	width: 98%;
+	background: #5e5e5e;
+	border: 3px groove black;
+	border-top: none;
+	height: auto;
+  margin: 0px auto;
+	padding: 100px 0;
+}
+.input {
+  margin: 50px auto;
+  display: block;
+  width: 300px;
+	color: #7babf7;
+}
+.input1 {
+	display: inline-block;
+	margin: 10px auto;
+	line-height: 25px;
+}
+.main-temp {
+	text-transform: capitalize;
+}
+.main-temp, .details {
+	display: inline-block;
+  width: 300px;
+  margin: 10px;
+  transition: display 1s ease-in;
+}
+.main-temp #description {
+	color: #7babf7;
+	margin: 10px auto;
+	display: block;
+  font-size: 45px;
+}
+.main-temp img {
+	width: 80px;
+	height: 80px;
+}
+.main-temp #temp {
+	color: #eaeaea;
+  font-size: 100px;
+}
+.main-temp #temp:hover {
+  cursor: pointer;
+}
+#temp, #icon {
+  display: inline-block;
+}
+.details ul {
+	padding: 0;
+	list-style: none;
+}
+.details li {
+	border-bottom: 1px solid gray;
+  line-height: 35px;
+}
+.details span {
+	display: inline-block;
+	width: 50%;
+}
+.details .left {
+	text-transform: capitalize;
+	text-align: left;
+	color: darkgrey;
+}
+.details .right {
+	text-align: right;
+	color: #ffffff;
+}
+#change {
+	cursor: pointer;
+	display: inline;
+}
+footer {
+	color: #ffffff;
+	margin: 25px auto;
+}
+footer a {
+	text-decoration: none;
+	color: #7babf7;
+}
