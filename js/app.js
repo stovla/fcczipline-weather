@@ -48,7 +48,7 @@ function convertTemp() {
 };
 	//*** current weather api ***
 function getCurrentWeather(coords, offset) {
-	$.getJSON('http://api.openweathermap.org/data/2.5/weather?lat='+coords.latitude+'&lon='+coords.longitude+'&units=metric&appid=9784b7a432a0f413b057a0a5e13a34fb', function(json) {
+	$.getJSON('https://api.openweathermap.org/data/2.5/weather?lat='+coords.latitude+'&lon='+coords.longitude+'&units=metric&appid=9784b7a432a0f413b057a0a5e13a34fb', function(json) {
 			
 		icon = json.weather[0].icon;
 		var tempValue = Math.round(json.main.temp)
